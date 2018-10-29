@@ -23,11 +23,6 @@ import java.util.HashMap;
 import java.util.LinkedHashMap;
 import java.util.Map;
 
-/**
- * Created by Mr.Yangxiufeng on 2017/6/20.
- * Time:15:43
- * ProjectName:Common-admin
- */
 @Configuration
 public class ShiroConfig {
     protected static final long MILLIS_PER_SECOND = 1000;

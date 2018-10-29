@@ -10,11 +10,6 @@ import com.baomidou.mybatisplus.generator.config.rules.DbColumnType;
 import com.baomidou.mybatisplus.generator.config.rules.DbType;
 import com.baomidou.mybatisplus.generator.config.rules.NamingStrategy;
 
-/**
- * Created by Mr.Yangxiufeng on 2017/9/11.
- * Time:13:05
- * ProjectName:Common-admin
- */
 public class Generate {
     public static void main(String[] args) {
 

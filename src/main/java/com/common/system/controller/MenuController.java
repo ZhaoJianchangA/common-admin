@@ -21,11 +21,6 @@ import org.springframework.web.servlet.ModelAndView;
 import java.util.Date;
 import java.util.List;
 
-/**
- * Created by Mr.Yangxiufeng on 2017/8/2.
- * Time:15:00
- * ProjectName:Common-admin
- */
 @Controller
 @RequestMapping("menu")
 public class MenuController {

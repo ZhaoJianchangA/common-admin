@@ -102,8 +102,9 @@
     delete from rc_menu
     where id = #{id,jdbcType=VARCHAR}
   </delete>
-  <delete id="deleteByExample" parameterType="com.common.system.entity.RcMenuExample">
-    delete from rc_menu
+  <delete id="deleteByExample"
+	parameterType="com.common.system.entity.RcMenuExample">
+	delete from rc_menu
     <if test="_parameter != null">
       <include refid="Example_Where_Clause" />
     </if>
